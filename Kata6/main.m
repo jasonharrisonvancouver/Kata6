@@ -7,11 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MultiplicationTableBuilder.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        NSLog(@"\n%@", [MultiplicationTableBuilder drawTable:1]);
+        NSLog(@"\n%@", [MultiplicationTableBuilder drawTable:5]);
+        NSLog(@"\n%@", [MultiplicationTableBuilder drawTable:10]);
     }
     return 0;
 }

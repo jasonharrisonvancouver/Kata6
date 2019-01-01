@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9F4F276621DBF614009DED40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F276521DBF614009DED40 /* main.m */; };
+		9F4F277121DBF66A009DED40 /* MultiplicationTableBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F277021DBF66A009DED40 /* MultiplicationTableBuilder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		9F4F276221DBF614009DED40 /* Kata6 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Kata6; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F4F276521DBF614009DED40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F4F276F21DBF66A009DED40 /* MultiplicationTableBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiplicationTableBuilder.h; sourceTree = "<group>"; };
+		9F4F277021DBF66A009DED40 /* MultiplicationTableBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiplicationTableBuilder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		9F4F276421DBF614009DED40 /* Kata6 */ = {
 			isa = PBXGroup;
 			children = (
+				9F4F276F21DBF66A009DED40 /* MultiplicationTableBuilder.h */,
+				9F4F277021DBF66A009DED40 /* MultiplicationTableBuilder.m */,
 				9F4F276521DBF614009DED40 /* main.m */,
 			);
 			path = Kata6;
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F4F277121DBF66A009DED40 /* MultiplicationTableBuilder.m in Sources */,
 				9F4F276621DBF614009DED40 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
